@@ -12,3 +12,93 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
+
+
+
+.container-fluid padding{
+width:40%;
+}                                                                                                                                                                                                                                                                                        
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    min-height: 50px;
+}
+
+.btn {
+    color: #fff;
+    background: linear-gradient(90deg, var(--a1, #FFEDBC), var(--c2, #FFAFBD) 51%, var(--a1, #FFEDBC)) var(--x, 0)/200%;
+    box-shadow: 0 0 20px #eee;
+    border: 0;
+    border-radius: 10px;
+    flex: 1 1 auto;
+    font-weight: bold;
+    margin: 10px;
+    padding: 30px;
+    transition: 0.5s;
+    text-align: center;
+    text-transform: uppercase;
+    outline: 0;
+}
+
+.btn-3 {
+    --a1: #E0FFFF;
+    --c2: #64b3f4;
+}
+ul{
+    text-align: center;
+    list-style-position: inside;
+    }
+
+p{
+text-align: center;
+list-style-position: inside;
+}
+
+.jumbotron{
+background-color: rgb(253, 253, 253);
+}
+
+textcenter{
+text-align: center;
+list-style-position: inside;
+
+
+
+
+
+
+
+}
+
+.center {
+    text-align:center;
+    width:50%;
+    display:block;
+    margin:auto;
+    }
+
+
+  .cost{
+    text-align:center;
+    list-style-position: outside;
+    }
+.hi{
+    background-color: rgb(49, 0, 0)
+}
+h2{
+    color:black
+}
+
+.green{
+    background-color:green !important;
+    background: linear-gradient(90deg, var(--a1, rgb(188, 255, 194)), var(--c2, rgb(175, 255, 251)) 51%, var(--a1, rgb(188,255,194))) var(--x, 0)/200%;
+}
+
+.left{
+    text-align:left;
+}
