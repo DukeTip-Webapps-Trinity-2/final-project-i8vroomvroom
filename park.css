@@ -102,3 +102,62 @@ h2{
 .left{
     text-align:left;
 }
+
+hr { 
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+}
+
+
+.navbar-text{
+z-index: 1;
+margin: auto;
+left:0;
+right: 0;
+position: absolute;
+}
+.navbar-nav{
+    z-index: 1;
+}
+@media(max-width: 1200px){
+    .navbar-text{
+        display: none;
+    }
+}
+
+.card-text{
+    color:black;
+}
+
+
+
+
+#locator{ position: absolute; visibility: visible; left: 100px; top: 400px; height: 100px; width: 450px; z-index: 200; }
+
+#locator1{ position: absolute; visibility: visible; left: 700px; top: 400px; height: 100px; width: 450px; z-index: 200; }
+
+#locator2{ position: absolute; visibility: visible; left: 1300px; top: 400px; height: 100px; width: 450px; z-index: 200; }
+
+#locator3{ position: absolute; visibility: visible; left: 100px; top: 900px; height: 100px; width: 450px; z-index: 200; }
+
+#locator4{ position: absolute; visibility: visible; left: 700px; top: 900px; height: 100px; width: 450px; z-index: 200; }
+
+#locator5{ position: absolute; visibility: visible; left: 1300px; top: 900px; height: 100px; width: 450px; z-index: 200; }
+
+#locator6{ position: absolute; visibility: visible; left: 100px; top: 1400px; height: 100px; width: 450px; z-index: 200; }
+
+#locator7{ position: absolute; visibility: visible; left: 700px; top: 1400px; height: 100px; width: 450px; z-index: 200; }
+
+#locator8{ position: absolute; visibility: visible; left: 1300px; top: 1400px; height: 100px; width: 450px; z-index: 200; }
+
+
+
+
+
+#ticket{ position: absolute; visibility: visible; left: 739px; top: 600px; height: 100px; width: 450px; z-index: 200;}
+

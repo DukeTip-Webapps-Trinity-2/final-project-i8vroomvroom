@@ -1,17 +1,21 @@
 Index:Wesley, William, Michael(mostly), Jose
 Events: Wesley(all event pages) 
-Jose: About
+About: Jose
 Contact info stuff: Michael
 Rides: William
-CSS:
+CSS:anyone who needs to use it
 Javascript:The work is here'nt
-Tickets:William,,,,,, Michael
-Map:
+Tickets:William
+Map: Michael
+images:Wesley
 
 
-ok guys we're done with this
+Wesley: Events(and all event pages) images
+Michael: Contact Info, Index, About
+About: Jose
+William: Rides & Tickets, images
 
-Wesley: Events(and all event pages)
-Michael: Contact Info, Index
-Jose:About
-William: Rides & Tickets(he did bad) lol
+
+class="mx-auto" style="width:400px" (will delete soon)
+
+E
