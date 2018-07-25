@@ -2,7 +2,7 @@ Index:Wesley, William, Michael(mostly), Jose
 Events: Wesley(all event pages) 
 About: Jose
 Contact info stuff: Michael
-Rides: William
+Rides: William, Wesley
 CSS:anyone who needs to use it
 Javascript:The work is here'nt
 Tickets:William

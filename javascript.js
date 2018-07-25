@@ -10,10 +10,16 @@ $(document).ready(function () {
     });
 });
 
-function onRes(response) { //"response is actually a variable, we could name it whatever we want. It just stores what the api sends."
-    console.log(response);
-    $(".country").html(response.sys.country);
-    $(".temp").html(response.main.temp);
-    $(".city-name").html(response.name);
-    $(".weather").html(response.weather[0].description)
-}
+let request = require('request');
+
+let apiKey = '7b4c123850177a48dc2ee0b6299083c6';
+let city = 'Tampa Bay';
+let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`
+
+request(url, function (err, response, body) {
+  if(err){
+    console.log('error:', error);
+  } else {
+    console.log('body:', body);
+  }
+});

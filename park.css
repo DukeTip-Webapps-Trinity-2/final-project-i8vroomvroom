@@ -112,7 +112,9 @@ hr {
     border-style: inset;
     border-width: 2px;
 }
-
+.aye{
+    background-color: rgb(49, 0, 0) !important;
+}
 
 .navbar-text{
 z-index: 1;
@@ -124,6 +126,8 @@ position: absolute;
 .navbar-nav{
     z-index: 1;
 }
+.navbar{
+}
 @media(max-width: 1200px){
     .navbar-text{
         display: none;
@@ -133,10 +137,16 @@ position: absolute;
 .card-text{
     color:black;
 }
+.jumbotron{
+    background-color:rgb(28, 28, 122);
+    color:white;
+    padding-top: 10x;
+    padding-bottom: 20px;
 
+}
 
-
-
+.carousel{
+}
 #locator{ position: absolute; visibility: visible; left: 100px; top: 400px; height: 100px; width: 450px; z-index: 200; }
 
 #locator1{ position: absolute; visibility: visible; left: 700px; top: 400px; height: 100px; width: 450px; z-index: 200; }
@@ -161,3 +171,9 @@ position: absolute;
 
 #ticket{ position: absolute; visibility: visible; left: 739px; top: 600px; height: 100px; width: 450px; z-index: 200;}
 
+
+@font-face {
+    font-family: Grobold;
+    src: url(sansation_bold.woff);
+    font-weight: bold;
+}
