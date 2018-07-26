@@ -83,10 +83,6 @@ list-style-position: inside;
     }
 
 
-  .cost{
-    text-align:center;
-    list-style-position: outside;
-    }
 .hi{
     background-color: rgb(49, 0, 0)
 }
@@ -125,12 +121,20 @@ position: absolute;
 }
 .navbar-nav{
     z-index: 1;
+    color:white 
 }
-.navbar{
+.navbar-dark{
+    color:white;
+    background-color:rgb(29, 29, 138);
+}
+.blue{
+    color:white;
+    background-color:rgb(29, 29, 138);
 }
 @media(max-width: 1200px){
     .navbar-text{
         display: none;
+
     }
 }
 
@@ -144,9 +148,15 @@ position: absolute;
     padding-bottom: 20px;
 
 }
-
-.carousel{
+.navbar-text{
+    color:white
 }
+
+
+.display-4{
+    color:black
+}
+
 #locator{ position: absolute; visibility: visible; left: 100px; top: 400px; height: 100px; width: 450px; z-index: 200; }
 
 #locator1{ position: absolute; visibility: visible; left: 700px; top: 400px; height: 100px; width: 450px; z-index: 200; }
@@ -165,11 +175,11 @@ position: absolute;
 
 #locator8{ position: absolute; visibility: visible; left: 1300px; top: 1400px; height: 100px; width: 450px; z-index: 200; }
 
+#hi {position:absolute; visibility: visible; left: 200px; }
 
 
 
-
-#ticket{ position: absolute; visibility: visible; left: 739px; top: 600px; height: 100px; width: 450px; z-index: 200;}
+#ticket{ position: absolute; visibility: visible; left: 100px; top: 1230px; height: 100px; width: 450px; z-index: 200;}
 
 
 @font-face {
@@ -177,3 +187,32 @@ position: absolute;
     src: url(sansation_bold.woff);
     font-weight: bold;
 }
+
+
+
+
+#ticketdefault{ position: absolute; visibility: visible; left: 100px; top: 400px; height: 100px; width: 450px; z-index: 200; }
+
+#ticket1tier{ position: absolute; visibility: visible; left: 700px; top: 400px; height: 100px; width: 450px; z-index: 200; }
+
+#ticket2tier{ position: absolute; visibility: visible; left: 1300px; top: 400px; height: 100px; width: 450px; z-index: 200; }
+
+#ticket3tier{ position: absolute; visibility: visible; left: 100px; top: 1200px; height: 100px; width: 450px; z-index: 200; }
+
+#ticket4tier{ position: absolute; visibility: visible; left: 700px; top: 1200px; height: 100px; width: 450px; z-index: 200; }
+
+#ticket5tier{ position: absolute; visibility: visible; left: 1300px; top: 1200px; height: 100px; width: 450px; z-index: 200; }
+
+#prestige{ position: absolute; visibility: visible; left: 700px; top: 1800px; height: 100px; width: 450px; z-index: 200; }
+
+#ticket1{ position: absolute; visibility: visible; left: 100px; top: 416px; height: 100px; width: 450px; z-index: 200; }
+
+#ticket2{ position: absolute; visibility: visible; left: 700px; top: 440px; height: 100px; width: 450px; z-index: 200; }
+
+#ticket3{ position: absolute; visibility: visible; left: 1300px; top: 440px; height: 100px; width: 450px; z-index: 200; }
+
+#ticket4{ position: absolute; visibility: visible; left: 700px; top: 1300px; height: 100px; width: 450px; z-index: 200; }
+
+#ticket5{ position: absolute; visibility: visible; left: 600px; top: -75px; height: 100px; width: 450px; z-index: 200; }
+
+#ticket6{ position: absolute; visibility: visible; left: -600px; top: 650px; height: 100px; width: 450px; z-index: 200; }

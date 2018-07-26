@@ -7,15 +7,14 @@ CSS:anyone who needs to use it
 Javascript:The work is here'nt
 Tickets:William
 Map: Michael
-images:Wesley
+images:Wesley, William
 
 
-Wesley: Events(and all event pages) images
+Wesley: Events(and all event pages) images, rides main mage, rules page
 Michael: Contact Info, Index, About
 About: Jose
-William: Rides & Tickets, images
+William: Extreme and easy Rides pages & Tickets, images(some)
 
 
-class="mx-auto" style="width:400px" (will delete soon)
+class="mx-auto" style="width:400px" (will delete soon)          2:12pm: Please delete this soon ~ Wesley 
 
-E
